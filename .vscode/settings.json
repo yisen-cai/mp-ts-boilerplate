@@ -1,0 +1,17 @@
+{
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/**.js": true,
+    "src/*_npm": true,
+    "node_modules": true
+  }
+  // "files.associations": {
+  //   "*.wxml": "html",
+  //   "*.wxss": "css"
+  // }
+}
