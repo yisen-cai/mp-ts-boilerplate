@@ -1,0 +1,51 @@
+/* src/pages/login/index.wxss */
+#container {
+  padding: 0;
+  /* background: white; */
+  justify-content: flex-start;
+}
+
+#login-icon {
+  margin-top: 220rpx;
+  width: 520rpx;
+  height: 312rpx;
+}
+
+van-button {
+  margin-top: 40rpx;
+}
+
+.text {
+  height: 37rpx;
+  position: relative;
+  left: 10rpx;
+}
+
+#read-agreement {
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 30rpx;
+}
+
+.link {
+  height: 37rpx;
+  margin-left: 10rpx;
+}
+
+button {
+  font-size: 16px !important;
+  color: black !important;
+  width: 500rpx !important;
+  height: 90rpx !important;
+  font-weight: lighter !important;
+  font-family: SimSun !important;
+  border-radius: 20rpx !important;
+}
+
+#login-bottom {
+  position: fixed;
+  width: 700rpx;
+  height: 380rpx;
+  bottom: 0;
+}

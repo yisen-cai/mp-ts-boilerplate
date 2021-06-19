@@ -29,10 +29,11 @@
     },
     "lib": [
       "ES6",
+      "es2019",
       "ES2015.Promise"
     ],
     "skipLibCheck": true,
-    "typeRoots": ["./typings", "./src/types"]
+    "typeRoots": ["./typings", "./src/typings"]
   },
   "include": ["./**/*.ts"],
   "exclude": [

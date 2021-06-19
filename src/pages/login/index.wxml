@@ -1,0 +1,13 @@
+<view id="container">
+  <van-notify id="van-notify" />
+  <image id="login-icon" src="../../assets/svg/login-icon.svg"></image>
+  <van-button type="primary" color="#FBD93B" disabled="{{!readed}}" bindtap="getUserProfile">
+    微信登陆
+  </van-button>
+  <view id="read-agreement">
+    <van-checkbox value="{{ readed }}" checked-color="#07c160" shape="square" icon-size="13px" bind:change="readedAgreementAction"></van-checkbox>
+    <view class="text">我已经阅读并接受</view>
+    <a class="link" href="">用户协议</a>
+  </view>
+  <image id="login-bottom" src="../../assets/svg/login-bottom.svg" />
+</view>

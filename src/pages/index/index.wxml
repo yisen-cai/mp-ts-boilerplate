@@ -1,5 +1,5 @@
-<!--index.wxml-->
-<view class="container">
+<!-- index.wxml -->
+<view id="container">
   <van-notify id="van-notify" />
   <view class="userinfo">
     <block wx:if="{{canIUseOpenData}}" class="userinfo-opendata">
@@ -18,7 +18,7 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <van-button type="primary">按钮</van-button>
+  <van-button type="primary" bindtap="testLoginApi">按钮</van-button>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
